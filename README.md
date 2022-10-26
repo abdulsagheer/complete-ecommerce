@@ -1,5 +1,7 @@
 # Complete React Ecommerce App
 
+--> Developed an Complete Advance Ecommerce App
+
 ## Available Scripts
 
 1. In the project directory, you can install:
