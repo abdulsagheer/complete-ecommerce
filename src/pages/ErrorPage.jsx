@@ -1,5 +1,5 @@
 const ErrorPage = () => {
-  return <div>404 - Page Doesn't Exists!!!</div>;
+  return <h1>404 - Page Doesn't Exists!!!</h1>;
 };
 
 export default ErrorPage;
