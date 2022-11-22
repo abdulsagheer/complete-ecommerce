@@ -1,7 +1,7 @@
-import FeatureProduct from "../components/FeatureProduct/FeatureProduct";
-import HeroSection from "../components/HeroSection/HeroSection";
-import Services from "../components/Services/Services";
-import Trusted from "../components/Trusted/Trusted";
+import FeatureProduct from "../components/FeatureProduct";
+import HeroSection from "../components/HeroSection";
+import Services from "../components/Services";
+import Trusted from "../components/Trusted";
 
 const Home = () => {
   const data = {
