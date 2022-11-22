@@ -10,7 +10,6 @@ const SingleProduct = () => {
     useProductContext();
 
   const { id } = useParams();
-
   const {
     id: alias,
     name,
@@ -25,7 +24,8 @@ const SingleProduct = () => {
 
   useEffect(() => {
     getSingleProduct(`${API}?id=${id}`);
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [id]);
 
   return <h1>single page {name} </h1>;
 };
