@@ -2,13 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import Nav from "./Nav";
-import Logo from "../assets/logo.png";
 
 const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
-        <img src={Logo} alt="my logo img" />
+        <img src="./images/logo.png" alt="my logo img" />
       </NavLink>
       <Nav />
     </MainHeader>

@@ -1,22 +1,26 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import styled from "styled-components";
 
 const Contact = () => {
   const Wrapper = styled.section`
     padding: 9rem 0 5rem 0;
     text-align: center;
+
     .container {
       margin-top: 6rem;
+
       .contact-form {
         max-width: 50rem;
         margin: auto;
+
         .contact-inputs {
           display: flex;
           flex-direction: column;
           gap: 3rem;
+
           input[type="submit"] {
             cursor: pointer;
             transition: all 0.2s;
+
             &:hover {
               background-color: ${({ theme }) => theme.colors.white};
               border: 1px solid ${({ theme }) => theme.colors.btn};
@@ -40,16 +44,14 @@ const Contact = () => {
         style={{ border: 0 }}
         allowFullScreen=""
         loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
+        referrerPolicy="no-referrer-when-downgrade"></iframe>
 
       <div className="container">
         <div className="contact-form">
           <form
-            action="https://formspree.io/f/xzbwwggk"
+            action="https://formspree.io/f/xeqdgwnq"
             method="POST"
-            className="contact-inputs"
-          >
+            className="contact-inputs">
             <input
               type="text"
               placeholder="username"
@@ -72,8 +74,7 @@ const Contact = () => {
               rows="10"
               required
               autoComplete="off"
-              placeholder="Enter you message"
-            ></textarea>
+              placeholder="Enter you message"></textarea>
 
             <input type="submit" value="send" />
           </form>
